@@ -19,7 +19,7 @@ class AddNewUserPage(BasePage):
     PASSWORD_INPUT = (By.CSS_SELECTOR, 'input[type="password"]')
     EMAIL_INPUT = (By.XPATH, '(//input)[5]')
     MOBILE_PHONE_INPUT = (By.XPATH, '(//input)[7]')
-    EXISTING_USERNAME = 'whummel'
+    EXISTING_USERNAME = '...'
 
     # Alerts
     FORM_VALIDATION_FAILED_ALERT = \
